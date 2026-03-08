@@ -142,7 +142,7 @@ function App() {
             };
 
             try {
-              await fetch("http://localhost:5000/api/contact", {
+              await fetch("https://kishanjee-shukla-portfolio.onrender.com/api/contact", {
                 method: "POST",
                 headers: {
                   "Content-Type": "application/json",
